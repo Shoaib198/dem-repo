@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <section name="proxy_0">
+    
+    <entry name="reg_identity">sip:1001@103.180.244.115</entry>
+    
+    <entry name="reg_proxy">
+      sip:103.180.244.115:35922;transport=udp
+    </entry>
+
+    <entry name="reg_route">
+      sip:103.180.244.115:35922;transport=udp
+    </entry>
+
+    <entry name="reg_expires">3600</entry>
+
+    <entry name="reg_sendregister">1</entry>
+
+    <entry name="realm">103.180.244.115</entry>
+
+    <entry name="reg_user">1001</entry>
+
+    <entry name="reg_passwd">
+      695f3bd29799423c9ea12bb1b142db06
+    </entry>
+
+  </section>
+</config>
